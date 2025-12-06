@@ -1,6 +1,5 @@
-package subin.openlibrary.booklist.ui.theme
+package subin.openlibrary.booklist.core.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

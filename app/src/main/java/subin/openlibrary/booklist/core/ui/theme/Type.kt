@@ -1,4 +1,4 @@
-package subin.openlibrary.booklist.ui.theme
+package subin.openlibrary.booklist.core.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
