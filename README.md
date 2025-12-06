@@ -180,7 +180,7 @@ ViewModel tests - API tests with MockWebServer
 ```
 ------------------------------------------------------------------------
 
-## 🔁 Unidirectional Data Flow (UDF)
+### 🔁 Unidirectional Data Flow (UDF)
 
     UI (Compose)
        ↓ observes
@@ -196,37 +196,37 @@ ViewModel tests - API tests with MockWebServer
 
 ------------------------------------------------------------------------
 
-## 🧠 State Management Strategy
+### 🧠 State Management Strategy
 
-### Data Layer → `Resource<T>`
+#### Data Layer → `Resource<T>`
 
 -   `Success`
 -   `Error`
 
-### Presentation Layer → `BookListUiState`
+#### Presentation Layer → `BookListUiState`
 
 -   `Loading`
 -   `Success`
 -   `Error`
 
-This ensures: - Domain stays UI-agnostic\
-- UI controls loading & rendering\
+This ensures: - Domain stays UI-agnostic
+- UI controls loading & rendering
 - Clear separation of data and presentation state
 
 ------------------------------------------------------------------------
 
-## 🧩 Bottom Sheet Interaction
+##£ 🧩 Bottom Sheet Interaction
 
--   Item click updates `selectedBook` in ViewModel\
--   `ModalBottomSheet` automatically reacts via StateFlow\
+-   Item click updates `selectedBook` in ViewModel
+-   `ModalBottomSheet` automatically reacts via StateFlow
 -   Bottom sheet dismissed by:
-    -   Swipe\
-    -   Close button\
+    -   Swipe
+    -   Close button
 -   Fully lifecycle safe
 
 ------------------------------------------------------------------------
 
-## 🌐 API Used
+### 🌐 API Used
 
     https://openlibrary.org/people/mekBot/books/{category}.json
 
@@ -234,51 +234,51 @@ Categories: - `want-to-read` - `currently-reading` - `already-read`
 
 ------------------------------------------------------------------------
 
-## 🛠 Tech Stack
+### 🛠 Tech Stack
 
--   **Language:** Kotlin\
--   **UI:** Jetpack Compose + Material 3\
--   **Architecture:** MVVM + Clean Architecture\
--   **Async:** Kotlin Coroutines + Flow\
--   **DI:** Hilt\
--   **Networking:** Retrofit + Moshi + OkHttp\
--   **Image Loading:** Coil\
+-   **Language:** Kotlin
+-   **UI:** Jetpack Compose + Material 3
+-   **Architecture:** MVVM + Clean Architecture
+-   **Async:** Kotlin Coroutines + Flow
+-   **DI:** Hilt
+-   **Networking:** Retrofit + Moshi + OkHttp
+-   **Image Loading:** Coil
 -   **Testing:** JUnit, Mockito, Coroutines Test, MockWebServer
 
 ------------------------------------------------------------------------
 
-## 📸 Screenshots *(optional)*
-
-    /screenshots/book-list.png
-    /screenshots/book-list-details.png
+### 📸 Screenshots
+<p float="left">
+  <img src="screenshots/book-list.png.png" width="200"/>
+  <img src="screenshots/book-list-details.png.png" width="200"/>
+</p>
 
 ------------------------------------------------------------------------
 
-## 🧪 Testing Strategy (Ready)
+### 🧪 Testing Strategy
 
--   DTO → Domain mapping tests\
--   Repository tests with fake data source\
--   UseCase tests with mocked repository\
--   ViewModel tests with coroutines test dispatcher\
+-   DTO → Domain mapping tests
+-   Repository tests with a fake data source
+-   UseCase tests with mocked repository
+-   ViewModel tests with coroutines test dispatcher
 -   API parsing tests using MockWebServer
 
 ------------------------------------------------------------------------
 
-## ✅ Why This Project Stands Out
+### ✅ Why This Project Stands Out
 
--   Proper Clean Architecture\
--   Real-world API integration\
--   Safe error handling\
--   Lifecycle-aware state management\
--   Bottom sheet with business-driven UI state\
--   Interview-grade architectural clarity
+-   Proper Clean Architecture
+-   Real-world API integration
+-   Safe error handling
+-   Lifecycle-aware state management
+-   Bottom sheet with business-driven UI state
 
 ------------------------------------------------------------------------
 
-## 🙌 Author
+### 🙌 Author
 
-**Subin Babu**\
-Senior Android Developer\
+**Subin Babu**
+Senior Android Developer
 Cambridge, UK
 
 GitHub: https://github.com/subinbabusamueldeveloper
