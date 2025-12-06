@@ -1,4 +1,4 @@
-# 📚 Quilter -- OpenLibrary Book List App
+# 📚OpenLibrary Book List App
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.x-blue?logo=kotlin)
 ![Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-blue?logo=jetpackcompose)
