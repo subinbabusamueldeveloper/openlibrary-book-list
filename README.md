@@ -215,7 +215,7 @@ This ensures: - Domain stays UI-agnostic
 
 ------------------------------------------------------------------------
 
-##£ 🧩 Bottom Sheet Interaction
+### 🧩 Bottom Sheet Interaction
 
 -   Item click updates `selectedBook` in ViewModel
 -   `ModalBottomSheet` automatically reacts via StateFlow
@@ -249,8 +249,8 @@ Categories: - `want-to-read` - `currently-reading` - `already-read`
 
 ### 📸 Screenshots
 <p float="left">
-  <img src="screenshots/book-list.png.png" width="200"/>
-  <img src="screenshots/book-list-details.png.png" width="200"/>
+  <img src="screenshots/book-list.png" width="200"/>
+  <img src="screenshots/book-list-details.png" width="200"/>
 </p>
 
 ------------------------------------------------------------------------
